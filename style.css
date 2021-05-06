@@ -1,0 +1,67 @@
+
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(32, 83, 177));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-box 
+{
+    width: 500px;
+    background-color: rgb(109, 178, 206);
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+form
+{
+    margin: 35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+
+}
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.btn 
+{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color:deepskyblue;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+
+}
+.h1-style
+{
+    font-size: 28px;
+    padding-top: -50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 3%;
+    left: 50%;
+
+
+}
